@@ -1,4 +1,4 @@
-/* general stuff */
+/* font styles */
 @font-face{
     font-family: patrickHand;
     src:url(PatrickHand-Regular.woff2) format('woff2'),
@@ -11,6 +11,9 @@
                 url(LuckiestGuy-Regular.woff) format('woff'),
                 url(LuckiestGuy-Regular.ttf) format('truetype');
 }
+
+/* page body styles */
+
 html{
     background-color: #A0CED9;
 }
@@ -22,6 +25,8 @@ body{
     margin-right: 95px;
 }    
 
+/* text styles */
+
 h1{
     font-family: 'LuckiestGuy'
 }
@@ -30,6 +35,19 @@ p{
     font-size: 1em; 
 }
 
+/* footer styles */
+
+div#footer{
+    font-family: 'patrickHand', serif;
+    text-align: center;
+    border-width: 10px 0px 0px 0px;
+    border-color: #284B63;
+    border-style: double;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #E7D8C9;
+    width: 100%;
+}
 /* Popular Quizes/Center Column */
 li a{
     text-decoration: none; 
