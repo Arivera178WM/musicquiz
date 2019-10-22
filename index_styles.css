@@ -15,8 +15,7 @@
 p, a{
     font-family: 'Patrick Hand', serif;
 }
-/* header styles *
-    
+/* header styles */
 
 h1{
     font-family: 'Patrick Hand', serif;
@@ -28,13 +27,66 @@ h2{
 
 /* background styles */
 
+div#ul1{
+    background: #E7D8C9;
+    color: #284B63;
+    width: 300px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #284B63; 
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: auto;
+    padding-top: auto;
+}
 
+div#ul2{
+    background: #E7D8C9;
+    color: #284B63;
+    width: 300px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #284B63;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: auto;
+    padding-top: auto; 
+}
+ 
+/* link text styles */
+
+a:hover{
+    color: #E8AEB7;
+}
+
+a{
+    color: #47363D;
+}
 
 /* image styles */
 
-img{
+div.col-1-3 img{
     width: 300px;
     height: 450px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+h1{
+    padding-left: 25px;
+}
+/* footer styles */
+
+div#footer{
+    font-family: 'patrickHand', serif;
+    text-align: center;
+    border-width: 10px 0px 0px 0px;
+    border-color: #284B63;
+    border-style: double;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #E7D8C9;
+    width: 100%;
 }
 
 /* list styles */
@@ -43,4 +95,20 @@ li a{
 }
 li{
 list-style: none;
+}
+
+body{
+    box-shadow: black 10px 5px 20px, -10px -5px 20px;
+}
+h1{
+    text-shadow: gray 10px 2px 5px;
+}
+footer{
+    text-align: center;
+    border: black 4px;
+    width: 100%;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #e7d8c9;
 }
