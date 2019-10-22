@@ -1,1 +1,31 @@
-/* header styles */
+/* text styles */
+p, a{
+    font-family: 'Patrick Hand', serif;
+}
+
+h1{
+    font-family: 'Patrick Hand', serif;
+}
+
+h2{
+    font-family: 'Patrick Hand', serif;
+}
+
+/* background styles */
+
+
+
+/* image styles */
+
+img{
+    width: 300px;
+    height: 450px;
+}
+
+/* list styles */
+li a{
+    text-decoration: none; 
+}
+li{
+list-style: none;
+}
