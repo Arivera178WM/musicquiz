@@ -18,3 +18,13 @@ img{
     width: 300px;
     height: 450px;
 }
+
+/* Popular Quizes/Center Column */
+li a{
+    text-decoration: none;
+    
+}
+li{
+list-style: none;
+}
+/* Recent Quizes/ Right Column*/
