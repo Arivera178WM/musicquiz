@@ -70,6 +70,20 @@ img{
     height: 450px;
 }
 
+
+/* footer styles */
+
+div#footer{
+    font-family: 'patrickHand', serif;
+    text-align: center;
+    border: black 4px;
+    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #E7D8C9;
+    width: 100%;
+}
+
 /* list styles */
 li a{
     text-decoration: none; 
