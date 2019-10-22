@@ -18,4 +18,14 @@ body{
 a{
     font-family: 'patrickHand';
     text-decoration: none;
+    color: #47363D;
 }
+
+p{
+    color: #47363D;
+}
+a:hover{
+    color: #E8AEB7;
+}
+
+
