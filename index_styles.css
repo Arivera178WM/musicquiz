@@ -103,12 +103,4 @@ body{
 h1{
     text-shadow: gray 10px 2px 5px;
 }
-footer{
-    text-align: center;
-    border: black 4px;
-    width: 100%;
-    border-style: solid;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #e7d8c9;
-}
+
