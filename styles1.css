@@ -23,18 +23,13 @@ h1{
 }
 p{
     font-family: 'Patrick Hand';
-    font-size: 1em 
+    font-size: 1em; 
 }
 
-img{
-    width: 300px;
-    height: 450px;
-}
 
 /* Popular Quizes/Center Column */
 li a{
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 li{
 list-style: none;
