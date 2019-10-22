@@ -12,20 +12,23 @@
                 url(LuckiestGuy-Regular.ttf) format('truetype');
 }
 html{
-    background-color: #A0CED9
+    background-color: #A0CED9;
 }
 
 body{
-    background-color: #FCF5C7
+    background-color: #FCF5C7;
+    margin-left: 95px;
+    margin-right: 95px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 h1{
-    font-family: 'Luckiest Guy'
+    font-family: 'LuckiestGuy'
 }
 p{
-    font-family: 'Patrick Hand';
+    font-family: 'patrickHand';
     font-size: 1em; 
 }
-
 
 /* Popular Quizes/Center Column */
 li a{

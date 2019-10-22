@@ -15,8 +15,7 @@
 p, a{
     font-family: 'Patrick Hand', serif;
 }
-/* header styles *
-    
+/* header styles */
 
 h1{
     font-family: 'Patrick Hand', serif;
@@ -28,7 +27,41 @@ h2{
 
 /* background styles */
 
+div#ul1{
+    background: #E7D8C9;
+    color: #284B63;
+    width: 300px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #284B63; 
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: auto;
+    padding-top: auto;
+}
 
+div#ul2{
+    background: #E7D8C9;
+    color: #284B63;
+    width: 300px;
+    border-style: double;
+    border-width: 10px;
+    border-color: #284B63;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: auto;
+    padding-top: auto; 
+}
+ 
+/* link text styles */
+
+a:hover{
+    color: #E8AEB7;
+}
+
+a{
+    color: #47363D;
+}
 
 /* image styles */
 
