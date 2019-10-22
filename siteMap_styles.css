@@ -1,4 +1,3 @@
-/* general stuff */
 @font-face{
     font-family: patrickHand;
     src:url(PatrickHand-Regular.woff2) format('woff2'),
@@ -11,27 +10,3 @@
                 url(LuckiestGuy-Regular.woff) format('woff'),
                 url(LuckiestGuy-Regular.ttf) format('truetype');
 }
-html{
-    background-color: #A0CED9
-}
-
-body{
-    background-color: #FCF5C7
-}
-h1{
-    font-family: 'Luckiest Guy'
-}
-p{
-    font-family: 'Patrick Hand';
-    font-size: 1em; 
-}
-
-
-/* Popular Quizes/Center Column */
-li a{
-    text-decoration: none; 
-}
-li{
-list-style: none;
-}
-/* Recent Quizes/ Right Column*/
