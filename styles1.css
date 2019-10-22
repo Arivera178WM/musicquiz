@@ -17,11 +17,13 @@ html{
 
 body{
     background-color: #FCF5C7;
-    margin-left: 95px;
+    box-sizing: border-box;
+}    
+    /* margin-left: 95px;
     margin-right: 95px;
     padding-left: 25px;
-    padding-right: 25px;
-}
+    padding-right: 25px; */
+
 h1{
     font-family: 'LuckiestGuy'
 }
