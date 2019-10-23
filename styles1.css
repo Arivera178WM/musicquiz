@@ -1,4 +1,4 @@
-/* general stuff */
+/* font styles */
 @font-face{
     font-family: patrickHand;
     src:url(PatrickHand-Regular.woff2) format('woff2'),
@@ -11,26 +11,57 @@
                 url(LuckiestGuy-Regular.woff) format('woff'),
                 url(LuckiestGuy-Regular.ttf) format('truetype');
 }
+
+/* page body styles */
 html{
     background-color: #A0CED9;
 }
-
 body{
     background-color: #FCF5C7;
     box-sizing: border-box;
-    margin-left: 95px;
-    margin-right: 95px;
     box-shadow: black 5px 5px 10px, -5px -5px 10px; 
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }    
-
-h1{
-    font-family: 'LuckiestGuy'
+/** Header Styles */
+h1 a:link, h1 a:visited{
+    font-family: 'LuckiestGuy';
+    text-shadow: gray 10px 2px 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
+h1 a:hover, h1 a:active{
+    font-family: 'LuckiestGuy';
+    text-shadow: gray 10px 2px 5px;
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+a img{
+    padding-left: 15px;
+}
+/* text styles */
 p{
     font-family: 'patrickHand';
     font-size: 1em; 
 }
 
+/* footer styles */
+
+div#footer{
+    font-family: 'patrickHand', serif;
+    text-align: center;
+    border-width: 10px 0px 0px 0px;
+    border-color: #284B63;
+    border-style: double;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #E7D8C9;
+    width: 100%;
+    
+}
 /* Popular Quizes/Center Column */
 li a{
     text-decoration: none; 
