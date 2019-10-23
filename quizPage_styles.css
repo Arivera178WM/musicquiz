@@ -11,10 +11,6 @@
                 url(LuckiestGuy-Regular.woff) format('woff'),
                 url(LuckiestGuy-Regular.ttf) format('truetype');
 }
-body{
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 a{
     font-family: 'patrickHand';
     text-decoration: none;
