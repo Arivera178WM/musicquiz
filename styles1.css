@@ -68,4 +68,7 @@ li a{
 li{
 list-style: none;
 }
+div{
+    position: relative;
+}
 /* Recent Quizes/ Right Column*/
