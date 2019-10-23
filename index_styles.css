@@ -1,4 +1,4 @@
-/* header styles */
+/* Outside Font Imports */
 @font-face{
     font-family: patrickHand;
     src:url(PatrickHand-Regular.woff2) format('woff2'),
@@ -11,23 +11,34 @@
                 url(LuckiestGuy-Regular.woff) format('woff'),
                 url(LuckiestGuy-Regular.ttf) format('truetype');
 }
+/** Main Styles */
+body{
+    box-shadow: black 10px 5px 20px, -10px -5px 20px;
+}
 /* text styles */
 p, a{
     font-family: 'Patrick Hand', serif;
 }
 /* header styles */
-
 h1{
     font-family: 'Patrick Hand', serif;
+    padding-left: 25px;
+    padding-top: 25px;
 }
-
 h2{
     font-family: 'Patrick Hand', serif;
 }
-
+div#header{
+    border-style: solid;
+    border-color: #284B63;
+    border-width: 0px 0px 2px 0px;
+    padding-bottom: 5px;
+}
+div#main{
+    padding-top: 15px;
+}
 /* background styles */
-
-div#ul1{
+div#ul1, div#ul2{
     background: #E7D8C9;
     color: #284B63;
     width: 300px;
@@ -38,42 +49,20 @@ div#ul1{
     padding-left: 10px;
     padding-bottom: auto;
     padding-top: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
-
-div#ul2{
-    background: #E7D8C9;
-    color: #284B63;
-    width: 300px;
-    border-style: double;
-    border-width: 10px;
-    border-color: #284B63;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: auto;
-    padding-top: auto; 
+img, h1 a{
+    display: block;
 }
- 
 /* link text styles */
-
 a:hover{
     color: #E8AEB7;
 }
-
 a{
     color: #47363D;
-}
-
-/* image styles */
-
-div.col-1-3 img{
-    width: 300px;
-    height: 450px;
-    padding-left: 25px;
-    padding-bottom: 25px;
-}
-
-h1{
-    padding-left: 25px;
 }
 /* footer styles */
 
@@ -96,11 +85,3 @@ li a{
 li{
 list-style: none;
 }
-
-body{
-    box-shadow: black 10px 5px 20px, -10px -5px 20px;
-}
-h1{
-    text-shadow: gray 10px 2px 5px;
-}
-
